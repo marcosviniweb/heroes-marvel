@@ -1,0 +1,35 @@
+
+<div class = "row">
+
+  <div class="backHome">
+    <a routerLink="/">
+      <fa-icon [icon]="backHome"></fa-icon>
+      <p>Voltar aos Heróis</p>
+    </a>
+
+  </div>
+<section class = "grid">
+
+  <div id = "zoom" class = "heroes" *ngFor="let item of comics" >
+        <img [src]="getImageComics(item)" width="100%" />
+        <h3>  </h3>
+        <div class="title">
+          <h2>{{item.title}}</h2>
+        </div>
+        <div class="description">
+          <p>{{item.description}}</p>
+          <p *ngIf="item.description == 0 || item.description == null ">Sem descrição</p>
+        </div>
+        <div class="url">
+          <a *ngFor="let url of item.urls" [href]="url.url" target="_blank">
+            <button>{{url.type}}</button>
+          </a>
+        </div>
+
+
+  </div>
+
+</section>
+</div>
+
+

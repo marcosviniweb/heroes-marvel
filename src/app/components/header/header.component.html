@@ -1,0 +1,25 @@
+<header>
+  <div *ngIf="back===true" class = "row">
+    <button >Voltar</button>
+  </div>
+  <div class="filters" id="filters">
+    <img [routerLink]="['/']" src="assets/img/Marvel-logo.png" alt="Logo" id="logo">
+
+    <div class="search" id="search">
+      <div class="content" id="content">
+        <input type="text" placeholder="Pesquisar Heroí" (input)="search($event)">
+        <fa-icon [icon]="searchIcon"></fa-icon>
+      </div>
+    </div>
+    <div class="select">
+      <select  (change)="filter($event)">
+        <option value="" hidden >Filtrar por:</option>
+        <option value="asc">Ordem Alfabética (ASC)</option>
+        <option value="desc">Ordem Alfabética (DESC)</option>
+      </select>
+    </div>
+  </div>
+
+</header>
+
+

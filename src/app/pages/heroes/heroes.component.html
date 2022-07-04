@@ -1,0 +1,39 @@
+<div class = "row">
+  <div class="favButton">
+    <p>Filtrar Favoritos</p>
+    <input type="checkbox" (click)="filterFavBtn()"id="fav-input">
+  </div>
+  <section class = "grid">
+
+    <div id="zoom" class = "heroes" *ngFor="let item of heroes; index as i">
+          <img [src]="getImageHereos(item)" width="100%"/>
+          <h3> {{item.name}} </h3>
+          <div class = "botoes">
+             <div  class = "filmes">
+                <a [routerLink]="['/comics/list']"[queryParams]="{id:item.id}">
+                  <img  src = "../../../assets/img/video.png" height="30px"/>
+                </a>
+
+             </div>
+             <div class = "favorito">
+              <fa-icon [id]="item.name" (click)="selectFav(item.name)" class="fav-icon-heart" [icon]="heartfavs">
+              </fa-icon>
+            </div>
+            <div class = "excluir">
+              <img src = "../../../assets/img/bin.png" (click)="deleteHero(i)" height="30px" />
+            </div>
+
+          </div>
+          <div class="url">
+            <a *ngFor="let url of item.urls" target="_blank" [href]="url.url">
+              <button>{{url.type}}</button>
+            </a>
+          </div>
+    </div>
+
+  </section>
+  <div id="showMore">
+    <button  [ngStyle]="{'display': showMore}" (click)="getMoreHereos()">Ver Mais</button>
+  </div>
+  </div>
+
