@@ -34,9 +34,10 @@ img{
   min-height: 100vh;
 
   .backHome{
-    margin-top: 50px;
-    margin-right: 65%;
-    display: flex;
+    display: inline-flex;
+    margin-right: 80%;
+    position: absolute;
+    top: 85px;
     flex-direction: row;
     background-color: #8a171e;
     color: white;

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="marvel-logo.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:export-filename="C:\Users\suitedoalex\sites\marvel-logo-0.png"
+   inkscape:export-xdpi="3932.1599"
+   inkscape:export-ydpi="3932.1599">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="5.085"
+     inkscape:cx="44.356622"
+     inkscape:cy="62.782417"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10" />
+  <rect
+     width="81.79303%"
+     height="32.70974%"
+     id="rect2"
+     x="9.1034851"
+     y="33.64513"
+     style="fill:#ec1d24;fill-opacity:1;stroke-width:0.51724541"
+     inkscape:export-filename="C:\Users\suitedoalex\sites\marvel-logo-1.png"
+     inkscape:export-xdpi="2535.1794"
+     inkscape:export-ydpi="2535.1794" />
+  <path
+     d="M 88.302567,58.811787 V 63.76703 H 79.125391 V 36.211069 h 4.942083 V 58.811787 Z M 49.089299,49.723616 c -0.38233,0.184269 -0.78221,0.275778 -1.172061,0.277029 v -8.862536 h 0.02507 c 0.389852,-0.0031 3.299319,0.115327 3.299319,4.383009 0,2.230675 -0.990297,3.637772 -2.15233,4.202498 z M 34.605887,55.16461 35.974127,43.381953 37.393762,55.16461 Z M 78.263582,41.240902 V 36.215454 H 64.270305 L 61.966924,52.999741 59.691747,36.214832 h -5.046755 l 0.56472,4.481405 c -0.581643,-1.148244 -2.647478,-4.481405 -7.195325,-4.481405 -0.02946,-0.0013 -5.051769,0 -5.051769,0 l -0.01943,24.464099 -3.677891,-24.463477 -6.609294,-0.0031 -3.805748,25.346591 0.0013,-25.343462 H 22.526773 L 20.246583,50.453787 18.025308,36.21482 h -6.327874 v 27.556589 h 4.982825 V 50.48889 l 2.267655,13.282519 h 2.648732 L 23.831083,50.48889 v 13.282519 h 9.606511 l 0.581643,-4.238221 h 3.867173 l 0.581016,4.238221 9.431016,0.005 h 0.0063 v -0.005 h 0.01253 v -8.944018 l 1.156392,-0.169228 2.392383,9.11951 h 4.878781 l -0.0013,-0.0063 h 0.01379 L 53.216603,53.086205 c 1.590743,-1.178326 3.38832,-4.164266 2.910095,-7.02171 v -0.0013 c 0.005,0.03638 2.963999,17.725693 2.963999,17.725693 l 5.801386,-0.0169 3.965577,-24.976802 v 24.976802 h 9.405944 v -4.9565 h -4.465113 v -6.317845 h 4.465113 v -5.032968 h -4.465113 v -6.224457 h 4.465113 z"
+     id="path4-7"
+     style="fill:#fefefe;fill-opacity:1;stroke-width:0.62677044"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="C:\Users\suitedoalex\sites\marvel-logo-1.png"
+     inkscape:export-xdpi="2535.1794"
+     inkscape:export-ydpi="2535.1794" />
+</svg>
