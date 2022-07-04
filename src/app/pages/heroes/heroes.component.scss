@@ -7,6 +7,10 @@
   }
 }
 
+.excluir{
+  text-align: right;
+  margin-right: 10px;
+}
 .row{
   display:flex;
   flex-direction: column;
@@ -83,7 +87,7 @@
 
 
 }
-@media only screen and (min-width: 1201px) and (max-width: 1700px) {
+@media only screen and (min-width: 1401px) and (max-width: 1700px) {
   .grid{
 
     padding: 100px;
@@ -97,17 +101,81 @@
 
 }
 
-@media only screen and (max-width: 1200px){
+@media only screen and (min-width: 801px) and (max-width: 1400px){
   .grid{
-
-
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-right: 5px;
     display: grid;
     grid-template-columns: auto auto ;
-    gap: 20px
+    gap: 10px
   }
-  img{
-    padding: 5px;
-   }
+
+
+}
+
+
+@media only screen and (max-width: 800px){
+  .grid{
+    margin-top: 100px;
+    margin-right: 5px;
+    display: grid;
+    grid-template-columns: auto  ;
+    gap: 2px
+  }
+
+  .favButton{
+    display: inline-flex;
+    margin-left: 0% !important;
+    position: absolute;
+    top: 385px !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#8a171e;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border-top: none;
+    color: white;
+
+
+  }
+  .favButton input[type="checkbox"] {
+    width: 50px;
+    height: 20px;
+    appearance: none;
+    background-color: #dae2df;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.1s;
+    position: relative;
+
+  }
+
+  .favButton input:checked[type="checkbox"] {
+    background-color: #074c77;
+  }
+
+  .favButton input[type="checkbox"]::before{
+    content: '';
+    width: 19px;
+    height: 19px;
+    background-color: rgba(255, 255, 255, 0.925);
+    border-radius: 9px;
+    position: absolute;
+    box-shadow: 0px 2px 3px 1px rgba(0,0,0,24);
+    transform: scale(1.1);
+    top: 0;
+    left: 0;
+    transition: 0.1s;
+  }
+
+  .favButton input:checked[type="checkbox"]::before {
+    left: 30px;
+  }
+
+
 
 }
 
@@ -117,7 +185,6 @@
 
   background-color: white;
   border-radius: 10px;
-  width: 300px;
   padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 
